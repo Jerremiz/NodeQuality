@@ -228,7 +228,7 @@ function load_part(){
 }
 
 function load_3rd_program(){
-    chroot_run wget https://github.com/nxtrace/NTrace-core/releases/download/v1.3.7/nexttrace_linux_amd64 -qO /usr/local/bin/nexttrace
+    chroot_run wget https://v4.gh-proxy.org/https://github.com/nxtrace/NTrace-core/releases/download/v1.3.7/nexttrace_linux_amd64 -qO /usr/local/bin/nexttrace
     chroot_run chmod u+x /usr/local/bin/nexttrace
 }
 
